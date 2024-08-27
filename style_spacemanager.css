@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 80px;
+    background-color: rgb(0, 142, 178);
+    display: flex;
+}
+
+nav a {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+nav h3 {
+    font-size: 2.1em;
+    text-transform: uppercase;
+}
+
+nav i {
+    font-size: 1em;
+    margin: 0 0 8px;
+    color: whitesmoke;
+    transform: rotate(6deg);
+    transition: all 0.2s;
+}
+
+nav a:hover i {
+    color: yellow;
+}
+
+.right-nav a {
+    display: inline;
+    padding: 9px;
+    height: 37px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 600;
+    transition: all 0.1s ease-in-out;
+    border: 2px solid #fff;
+    color: rgb(37, 144, 219);
+    background: #fff;
+}
+
+.right-nav a:hover {
+    border: 2px solid #fff;
+    color: #fff;
+    background: rgb(37, 144, 219);
+}
+
+body {
+    background: rgb(189, 215, 236);
+}
+
+#box {
+    background: #fff;
+    border-radius: 25px;
+    width: max-content;
+    margin: auto;
+    margin-top: 53px;
+    padding: 10px;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    font-size: 1.3em;
+    transform: translate(20px, -60%);
+    background: #fff;
+    width: max-content;
+    padding: 8px 19px;
+    border-radius: 17px;
+    display: flex;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+p1 {
+    margin-left: 40px;
+    background-color: rgb(110, 131, 175);
+    color: aliceblue;
+    padding: 0 11px;
+
+}
+
+.Approve_Booking {
+    border-style: none;
+    width: 14%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(76, 130, 0);
+    padding: 6px;
+    height: 21px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-weight: 600;
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
+}
+
+.Approve_Booking:hover {
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(76, 130, 0);
+    background: white;
+    color: rgb(76, 130, 0);
+    
+}
+
+.Reject_Booking {
+    border-style: none;
+    width: 14%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(76, 130, 0);
+    padding: 6px;
+    height: 21px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-weight: 600;
+    transition: all 0.1s ease-in-out;
+    text-decoration: none;
+}
+
+.Reject_Booking:hover {
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(76, 130, 0);
+    background: white;
+    color: rgb(76, 130, 0);
+}
+
+form {
+    width: 100%;
+    padding: 0px 55px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"] {
+    border-style: none;
+    width: 14%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(76, 130, 0);
+    padding: 0 12 0 0px;
+    height: 21px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 0.8em;
+    font-weight: 600;
+    transition: all 0.1s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgb(76, 130, 0);
+    background: white;
+    color: rgb(76, 130, 0);
+}
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+    border-style: dashed;
+    border-radius: 1em;
+    overflow: hidden;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: rgb(0, 142, 178);
+    color: white;
+}
